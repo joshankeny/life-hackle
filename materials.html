@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Materials</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="E:\LifeHackle\code\lifehackle_stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script src="E:\LifeHackle\code\lifehackle_js.js"></script>
+	<script src="E:\LifeHackle\code\Feedback_js.js"></script>
+</head>    
+<body>
+<div class="header">        
+        <img src="E:\LifeHackle\Logo\logo.png" style="width: 200px">
+		<h1>Life-Hackle: The Penny Pusher's Guide to Fly FIshing</h1>
+    </div>
+<nav class="navbar navbar-expand-md bg-light navbar-light">
+  <a class="navbar-brand" href="E:\LifeHackle\code\home.html">Life-Hackle
+    <img src="https://www.netclipart.com/pp/m/187-1874264_fly-fishing-adams-fly-fishing-vector.png" alt="logo" style="width:40px;">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="E:\LifeHackle\code\home.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Your Materials</a>
+			<div class="dropdown-menu">
+				<a class="dropdown-item" href="E:\LifeHackle\code\materials.html#beads">Beads</a>
+				<a class="dropdown-item" href="E:\LifeHackle\code\materials.html#hooks">Hooks</a>
+				<a class="dropdown-item" href="E:\LifeHackle\code\materials.html#thread">Thread</a>
+				<a class="dropdown-item" href="E:\LifeHackle\code\materials.html#fur">Fur</a>
+			</div>
+        </li>
+        <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Patterns
+      </a>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="E:\LifeHackle\code\patterns.html#dryflies">Dry Flies</a>
+        <a class="dropdown-item" href="E:\LifeHackle\code\patterns.html#nymphs">Nymphs</a>
+        <a class="dropdown-item" href="E:\LifeHackle\code\patterns.html#streamers">Streamers</a>
+    </div>
+    </li>  
+	<li class="nav-item">
+        <a class="nav-link" href="#">Tying Hacks</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav flex-row justify-content-between ml-auto">
+                <li class="nav-item order-2 order-md-1"><a href="#" class="nav-link" title="settings"><i class="fa fa-cog fa-fw fa-lg"></i></a></li>
+                <li class="dropdown order-1">
+                    <button type="button" id="dropdownMenu1" data-toggle="dropdown" class="btn btn-outline-secondary dropdown-toggle">Login <span class="caret"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-right mt-2">
+                       <li class="px-3 py-2">
+                           <form class="form" role="form">
+                                <div class="form-group">
+                                    <input id="emailInput" placeholder="Email" class="form-control form-control-sm" type="text" required="">
+                                </div>
+                                <div class="form-group">
+                                    <input id="passwordInput" placeholder="Password" class="form-control form-control-sm" type="text" required="">
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                                </div>
+                                <div class="form-group text-center">
+                                    <small><a href="#" data-toggle="modal" data-target="#modalPassword">Forgot password?</a></small>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+  </div>  
+</nav>
+<br>
+<div class="container">
+    <h3 align="center">Select Your Materials</h3>
+    <p align="center"><i>Make sure you save each individual list</i></p>
+<div id="beads">
+  <h3>Beads</h3>
+  <div class="flex-container">
+      <div class="container1" align="right">
+          <p align="center">Cyclops</p>
+          <form action="/action_page.php">
+              <label for="cyclops-2mm">2.0mm | 5/64"</label>
+              <input type="checkbox" id="cyclops-2mm" name="cyclops-2mm" value="cyclops-2mm"><br>
+              <label for="cyclops-2.3mm">2.3mm | 3/32"</label>
+              <input type="checkbox" id="cyclops-2.3mm" name="cyclops-2.3mm" value="cyclops-2.3mm"><br>
+              <label for="cyclops-2.8mm">2.8mm | 7/64"</label>
+              <input type="checkbox" id="cyclops-2.8mm" name="cyclops-2.8mm" value="cyclops-2.8mm"><br>
+              <label for="cyclops-3.3mm">3.3mm | 1/8"</label>
+              <input type="checkbox" id="cyclops-3.3mm" name="cyclops-3.3mm" value="cyclops-3.3mm"><br>
+              <label for="cyclops-3.8mm">3.8mm | 5/32"</label>
+              <input type="checkbox" id="cyclops-3.8mm" name="cyclops-3.8mm" value="cyclops-3.8mm"><br>
+              <label for="cyclops-4.6mm">4.6mm | 3/16"</label>
+              <input type="checkbox" id="cyclops-4.6mm" name="cyclops-4.6mm" value="cyclops-4.6mm"><br>
+              <input type="submit" value="Save">
+          </form>
+      </div>
+      <div class="container1" align="right">
+          <p align="center">Cones</p>
+            <label for="cones-xsml">Extra Small | 5/32"</label>
+            <input type="checkbox" id="cones-xsml" name="cones-xsml" value="cones-xsml"><br>
+            <label for="cones-sml">Small | 1/4"</label>
+            <input type="checkbox" id="cones-sml" name="cones-sml" value="cones-sml"><br>
+            <label for="cones-med">Medium | 3/8"</label>
+            <input type="checkbox" id="cones-med" name="cones-med" value="cones-med"><br>
+            <label for="cones-lar">Large | 7/16"</label>
+            <input type="checkbox" id="cones-lar" name="cones-lar" value="cones-lar"><br>
+            <input type="submit" value="Save">
+        </div>
+      <div class="container1" align="right">
+          <p align="center">Slotted</p>
+          <label for="slotted-2.3mm">2.3mm | 3/32"</label>
+            <input type="checkbox" id="slotted-2.3mm" name="slotted-2.3mm" value="slotted-2.3mm"><br>
+            <label for="slotted-2.8mm">2.8mm | 7/64"</label>
+            <input type="checkbox" id="slotted-2.8mm" name="slotted-2.8mm" value="slotted-2.8mm"><br>
+            <label for="slotted-3.3mm">3.3mm | 1/8"</label>
+            <input type="checkbox" id="slotted-3.3mm" name="slotted-3.3mm" value="slotted-3.3mm"><br>
+            <label for="slotted-3.8mm">3.8mm | 5/32"</label>
+            <input type="checkbox" id="slotted-3.8mm" name="slotted-3.8mm" value="slotted-3.8mm"><br>
+            <label for="slotted-4.6mm">4.6mm | 5/32"</label>
+            <input type="checkbox" id="slotted-4.6mm" name="slotted-4.6mm" value="slotted-4.6mm"><br>
+            <label for="slotted-5.5mm">5.5mm | 5/32"</label>
+            <input type="checkbox" id="slotted-5.5mm" name="slotted-5.5mm" value="slotted-5.5mm"><br>
+            <input type="submit" value="Save">
+      </div>
+  </div>
+  </div>
+<div id="hooks">
+  <h3>Hooks</h3>
+  <div class="flex-container">
+      <div class="container1" style="display:inline-block">
+          <p>Hook List</p>
+      </div>
+      <div class="container1">
+          <p>Hook List</p>
+      </div>
+      <div class="container1">
+          <p>Hook List</p>
+      </div>
+  </div>
+  </div>
+<div id="thread">
+  <h3>Thread</h3>
+  <div class="flex-container">
+      <div class="container1" align="right">
+          <p align="center">Black</p>
+          <label for="black-32">32 Denier | 14/0</label>
+            <input type="checkbox" id="black-32" name="black-32" value="black-32"><br>
+            <label for="black-70">70 Denier | 8/0</label>
+            <input type="checkbox" id="black-70" name="black-70" value="black-70"><br>
+            <label for="black-140">140 Denier | 6/0</label>
+            <input type="checkbox" id="black-140" name="black-140" value="black-140"><br>
+            <label for="black-210">210 Denier | 3/0</label>
+            <input type="checkbox" id="black-210" name="black-210" value="black-210"><br>
+            <input type="submit" value="Save">
+      </div>
+      <div class="container1" align="right">
+          <p align="center">White</p>
+          <label for="White-32">32 Denier | 14/0</label>
+            <input type="checkbox" id="White-32" name="White-32" value="White-32"><br>
+            <label for="White-70">70 Denier | 8/0</label>
+            <input type="checkbox" id="White-70" name="White-70" value="White-70"><br>
+            <label for="White-140">140 Denier | 6/0</label>
+            <input type="checkbox" id="White-140" name="White-140" value="White-140"><br>
+            <label for="White-210">210 Denier | 3/0</label>
+            <input type="checkbox" id="White-210" name="White-210" value="White-210"><br>
+            <input type="submit" value="Save">
+      </div>
+      <div class="container1" align="right">
+          <p align="center">Olive</p>
+          <label for="Olive-32">32 Denier | 14/0</label>
+            <input type="checkbox" id="Olive-32" name="Olive-32" value="Olive-32"><br>
+            <label for="Olive-70">70 Denier | 8/0</label>
+            <input type="checkbox" id="Olive-70" name="Olive-70" value="Olive-70"><br>
+            <label for="Olive-140">140 Denier | 6/0</label>
+            <input type="checkbox" id="Olive-140" name="Olive-140" value="Olive-140"><br>
+            <label for="Olive-210">210 Denier | 3/0</label>
+            <input type="checkbox" id="Olive-210" name="Olive-210" value="Olive-210"><br>
+            <input type="submit" value="Save">
+      </div>
+      <div class="container1" align="right">
+          <p align="center">Purple</p>
+          <label for="Purple-32">32 Denier | 14/0</label>
+            <input type="checkbox" id="Purple-32" name="Purple-32" value="Purple-32"><br>
+            <label for="Purple-70">70 Denier | 8/0</label>
+            <input type="checkbox" id="Purple-70" name="Purple-70" value="Purple-70"><br>
+            <label for="Purple-140">140 Denier | 6/0</label>
+            <input type="checkbox" id="Purple-140" name="Purple-140" value="Purple-140"><br>
+            <label for="black-210">210 Denier | 3/0</label>
+            <input type="checkbox" id="Purple-210" name="Purple-210" value="Purple-210"><br>
+            <input type="submit" value="Save">
+      </div>
+      <div class="container1" align="right">
+          <p align="center">Pink</p>
+          <label for="Pink-32">32 Denier | 14/0</label>
+            <input type="checkbox" id="Pink-32" name="Pink-32" value="Pink-32"><br>
+            <label for="Pink-70">70 Denier | 8/0</label>
+            <input type="checkbox" id="Pink-70" name="Pink-70" value="Pink-70"><br>
+            <label for="Pink-140">140 Denier | 6/0</label>
+            <input type="checkbox" id="Pink-140" name="Pink-140" value="Pink-140"><br>
+            <label for="Pink-210">210 Denier | 3/0</label>
+            <input type="checkbox" id="Pink-210" name="Pink-210" value="Pink-210"><br>
+            <input type="submit" value="Save">
+      </div>
+      <div class="container1" align="right">
+          <p align="center">Yellow</p>
+          <label for="Yellow-32">32 Denier | 14/0</label>
+            <input type="checkbox" id="Yellow-32" name="Yellow-32" value="Yellow-32"><br>
+            <label for="Yellow-70">70 Denier | 8/0</label>
+            <input type="checkbox" id="Yellow-70" name="Yellow-70" value="Yellow-70"><br>
+            <label for="Yellow-140">140 Denier | 6/0</label>
+            <input type="checkbox" id="Yellow-140" name="Yellow-140" value="Yellow-140"><br>
+            <label for="Yellow-210">210 Denier | 3/0</label>
+            <input type="checkbox" id="Yellow-210" name="Yellow-210" value="Yellow-210"><br>
+            <input type="submit" value="Save">
+      </div>
+      <div class="container1" align="right">
+          <p align="center">Red</p>
+          <label for="Red-32">32 Denier | 14/0</label>
+            <input type="checkbox" id="Red-32" name="Red-32" value="Red-32"><br>
+            <label for="Red-70">70 Denier | 8/0</label>
+            <input type="checkbox" id="Red-70" name="Red-70" value="Red-70"><br>
+            <label for="Red-140">140 Denier | 6/0</label>
+            <input type="checkbox" id="Red-140" name="Red-140" value="Red-140"><br>
+            <label for="Red-210">210 Denier | 3/0</label>
+            <input type="checkbox" id="Red-210" name="Red-210" value="Red-210"><br>
+            <input type="submit" value="Save">
+      </div>
+      <div class="container1" align="right">
+          <p align="center">Orange</p>
+          <label for="Orange-32">32 Denier | 14/0</label>
+            <input type="checkbox" id="Orange-32" name="Orange-32" value="Orange-32"><br>
+            <label for="Orange-70">70 Denier | 8/0</label>
+            <input type="checkbox" id="Orange-70" name="Orange-70" value="Orange-70"><br>
+            <label for="Orange-140">140 Denier | 6/0</label>
+            <input type="checkbox" id="Orange-140" name="Orange-140" value="Orange-140"><br>
+            <label for="Orange-210">210 Denier | 3/0</label>
+            <input type="checkbox" id="Orange-210" name="Orange-210" value="Orange-210"><br>
+            <input type="submit" value="Save">
+      </div>
+      <div class="container1" align="right">
+          <p align="center">Tan</p>
+          <label for="Tan-32">32 Denier | 14/0</label>
+            <input type="checkbox" id="Tan-32" name="Tan-32" value="Tan-32"><br>
+            <label for="Tan-70">70 Denier | 8/0</label>
+            <input type="checkbox" id="Tan-70" name="Tan-70" value="Tan-70"><br>
+            <label for="Tan-140">140 Denier | 6/0</label>
+            <input type="checkbox" id="Tan-140" name="Tan-140" value="Tan-140"><br>
+            <label for="Tan-210">210 Denier | 3/0</label>
+            <input type="checkbox" id="Tan-210" name="Tan-210" value="Tan-210"><br>
+            <input type="submit" value="Save">
+      </div>
+      <div class="container1" align="right">
+          <p align="center">Brown</p>
+          <label for="Brown-32">32 Denier | 14/0</label>
+            <input type="checkbox" id="Brown-32" name="Brown-32" value="Brown-32"><br>
+            <label for="Brown-70">70 Denier | 8/0</label>
+            <input type="checkbox" id="Brown-70" name="Brown-70" value="Brown-70"><br>
+            <label for="Brown-140">140 Denier | 6/0</label>
+            <input type="checkbox" id="Brown-140" name="Brown-140" value="Brown-140"><br>
+            <label for="Brown-210">210 Denier | 3/0</label>
+            <input type="checkbox" id="Brown-210" name="Brown-210" value="Brown-210"><br>
+            <input type="submit" value="Save">
+      </div>
+      <div class="container1" align="right">
+          <p align="center">Green</p>
+          <label for="Green-32">32 Denier | 14/0</label>
+            <input type="checkbox" id="Green-32" name="Green-32" value="Green-32"><br>
+            <label for="Green-70">70 Denier | 8/0</label>
+            <input type="checkbox" id="Green-70" name="Green-70" value="Green-70"><br>
+            <label for="Green-140">140 Denier | 6/0</label>
+            <input type="checkbox" id="Green-140" name="Green-140" value="Green-140"><br>
+            <label for="Green-210">210 Denier | 3/0</label>
+            <input type="checkbox" id="Green-210" name="Green-210" value="Green-210"><br>
+            <input type="submit" value="Save">
+      </div>
+      <div class="container1" align="right">
+          <p align="center">Blue</p>
+          <label for="Blue-32">32 Denier | 14/0</label>
+            <input type="checkbox" id="Blue-32" name="Blue-32" value="Blue-32"><br>
+            <label for="Blue-70">70 Denier | 8/0</label>
+            <input type="checkbox" id="Blue-70" name="Blue-70" value="Blue-70"><br>
+            <label for="Blue-140">140 Denier | 6/0</label>
+            <input type="checkbox" id="Blue-140" name="Blue-140" value="Blue-140"><br>
+            <label for="Blue-210">210 Denier | 3/0</label>
+            <input type="checkbox" id="Blue-210" name="Blue-210" value="Blue-210"><br>
+            <input type="submit" value="Save">
+      </div>
+  </div>
+  </div>
+<div id="fur">
+  <h3>Fur</h3>
+  <div class="flex-container">
+            <div class="container1" align="right">
+          <p align="center">Hare's Mask</p>
+          <label for="hm-black">Black</label>
+            <input type="checkbox" id="hm-black" name="hm-black" value="hm-black"><br>
+            <label for="hm-Brown">Brown</label>
+            <input type="checkbox" id="hm-Brown" name="hm-Brown" value="hm-Brown"><br>
+            <label for="hm-Natural">Natural</label>
+            <input type="checkbox" id="hm-Natural" name="hm-Natural" value="hm-Natural"><br>
+            <label for="hm-Olive">Olive</label>
+            <input type="checkbox" id="hm-Olive" name="hm-Olive" value="hm-Olive"><br>
+            <label for="hm-Rust">Rust</label>
+            <input type="checkbox" id="hm-Rust" name="hm-Rust" value="hm-Rust"><br>
+            <input type="submit" value="Save">
+        </div>
+      <div class="container1" align="right">
+          <p align="center">Squirrel Tail</p>
+          <label for="sqt-black">Black</label>
+            <input type="checkbox" id="sqt-black" name="sqt-black" value="sqt-black"><br>
+            <label for="sqt-Brown">Brown</label>
+            <input type="checkbox" id="sqt-Brown" name="sqt-Brown" value="sqt-Brown"><br>
+            <label for="sqt-Natural">Natural</label>
+            <input type="checkbox" id="sqt-Natural" name="sqt-Natural" value="sqt-Natural"><br>
+            <label for="sqt-Olive">Olive</label>
+            <input type="checkbox" id="sqt-Olive" name="sqt-Olive" value="sqt-Olive"><br>
+            <label for="sqt-Rust">Rust</label>
+            <input type="checkbox" id="hm-Rust" name="hm-Rust" value="hm-Rust"><br>
+            <input type="submit" value="Save">
+        </div>
+      <div class="container1" align="right">
+          <p align="center">Zonker Strips</p>
+          <label for="zonk-black">Black</label>
+            <input type="checkbox" id="zonk-black" name="zonk-black" value="zonk-black"><br>
+            <label for="zonk-Brown">Brown</label>
+            <input type="checkbox" id="zonk-Brown" name="zonk-Brown" value="zonk-Brown"><br>
+            <label for="zonk-Natural">Natural</label>
+            <input type="checkbox" id="zonk-Natural" name="zonk-Natural" value="zonk-Natural"><br>
+            <label for="zonk-Olive">Olive</label>
+            <input type="checkbox" id="zonk-Olive" name="zonk-Olive" value="zonk-Olive"><br>
+            <label for="zonk-Rust">Rust</label>
+            <input type="checkbox" id="zonk-Rust" name="zonk-Rust" value="zonk-Rust"><br>
+            <input type="submit" value="Save">
+        </div>
+      <div class="container1" align="right">
+          <p align="center">Deer Hair</p>
+          <label for="dh-black">Black</label>
+            <input type="checkbox" id="dh-black" name="dh-black" value="dh-black"><br>
+            <label for="dh-Brown">Brown</label>
+            <input type="checkbox" id="dh-Brown" name="dh-Brown" value="dh-Brown"><br>
+            <label for="dh-Natural">Natural</label>
+            <input type="checkbox" id="dh-Natural" name="dh-Natural" value="dh-Natural"><br>
+            <label for="dh-Olive">Olive</label>
+            <input type="checkbox" id="dh-Olive" name="dh-Olive" value="dh-Olive"><br>
+            <label for="sqt-Rust">Rust</label>
+            <input type="checkbox" id="dh-Rust" name="dh-Rust" value="dh-Rust"><br>
+            <input type="submit" value="Save">
+        </div>
+        <div class="container1" align="right">
+          <p align="center">Elk Hair</p>
+          <label for="eh-black">Black</label>
+            <input type="checkbox" id="eh-black" name="eh-black" value="eh-black"><br>
+            <label for="eh-Brown">Brown</label>
+            <input type="checkbox" id="eh-Brown" name="eh-Brown" value="eh-Brown"><br>
+            <label for="hm-Natural">Natural</label>
+            <input type="checkbox" id="eh-Natural" name="eh-Natural" value="eh-Natural"><br>
+            <label for="eh-Olive">Olive</label>
+            <input type="checkbox" id="eh-Olive" name="eh-Olive" value="eh-Olive"><br>
+            <label for="eh-Rust">Rust</label>
+            <input type="checkbox" id="eh-Rust" name="eh-Rust" value="eh-Rust"><br>
+            <input type="submit" value="Save">
+        </div>
+  </div>
+  </div>
+<div id="feedback-main">
+    <div id="feedback-bg">
+  <div id="feedback-div">
+    <form method="post" class="form" id="feedback-form1" name="form1" enctype="multipart/form-data">
+
+      <p class="name">
+        <input name="name" type="name" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" required placeholder="Name" id="feedback-name" />
+      </p>
+
+      <p class="email">
+        <input name="email" type="email" class="validate[required,custom[email]] feedback-input" id="feedback-email" placeholder="Email" required />
+      </p>
+
+      <p class="text">
+        <textarea name="comment" type="comment" class="validate[required,length[6,300]] feedback-input" id="feedback-comment" required placeholder="Hey, I really love the site but I believe that you could incorporate some ..... and also get rid of the ...... on the section."></textarea>
+      </p>
+
+      <div class="feedback-submit">
+        <input type="button" value="SEND" id="feedback-button-blue" />
+      </div>
+    </form>
+  </div>
+  </div>
+</div>
+<div>
+<button id="popup" class="feedback-button" onclick="toggle_visibility()">Feedback</button>
+<script src="_include/js/feedback.js"></script>
+</div>
+</body>
+</html>
